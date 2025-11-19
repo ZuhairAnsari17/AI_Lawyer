@@ -30,10 +30,11 @@ class ConfigurationMannager:
 
         chunking_config = ChunkingConfig(
             chunk_size = config['chunk_size'],
-            chunk_overlap = config['chunk_overlap']
+            chunk_overlap = config['chunk_overlap'],
+            add_start_index = config['add_start_index']
         )
 
         return chunking_config
         
-    
+     
     
